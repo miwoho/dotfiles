@@ -29,7 +29,6 @@ enable_service() {
 copy_config(){
     cp -r config/. ~/.config
     sudo cp -r flexoki /usr/share/themes/flexoki
-    cp  .zshrc ~/
 }
 
 gtk_setting() {
@@ -40,4 +39,4 @@ gtk_setting() {
 install_pacman
 enable_service
 copy_config
-gtk_setting()
+gtk_setting
