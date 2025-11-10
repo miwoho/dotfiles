@@ -1,0 +1,49 @@
+{
+    "height": 40,
+    "position": "bottom",
+    "margin-left":10,
+    "margin-right":10,
+    "margin-bottom":10,
+
+    "modules-left": [
+        "clock"
+    ],
+    "modules-right": [
+      "pulseaudio",
+      "bluetooth",
+      "network",
+      "battery"
+    ],
+    "clock": {
+        "format": "{:%I:%M %p}",
+        "tooltip-format": "{:%A %d %B}"
+    },
+    "battery": {
+        "states": {
+            "critical": 15
+        },
+        "format": "{icon}",
+        "tooltip-format": "{timeTo}, {capacity}%",
+        "format-icons": ["󰂎", "󰁻", "󰁽", "󰁿", "󰁹"]
+    },
+    "network": {
+        "format-wifi": "{icon}",
+        "format-ethernet": "󰈀",
+        "tooltip-format": "{essid}, {signalStrength}%",
+        "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"]
+
+    },
+    "pulseaudio": {
+        "format": "{icon}",
+        "format-muted": "󰖁",
+        "format-icons": ["󰕿", "󰖀", "󰕾"],
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+    },
+    "bluetooth": {
+       	"format": "󰂯",
+        "format-connected":"󰂱",
+       	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+        "on-click": "ghostty -e bluetui"
+
+    }
+}

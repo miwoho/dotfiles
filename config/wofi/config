@@ -1,0 +1,11 @@
+[config]
+width=500
+show=drun
+prompt=
+height=300
+term=ghossty
+hide_scroll=true
+print_command=true
+insensitive=true
+columns=1
+no_actions=true

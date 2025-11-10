@@ -1,0 +1,54 @@
+* {
+    font-family: 'Adwaita Sans', 'Symbols Nerd Font';
+    font-size: 16px;
+}
+
+window#waybar {
+    border: none;
+    border-radius: 5px;
+    background-color: alpha (#1C1B1A, 0.999) ;
+    color: #FFFCF0;
+}
+
+tooltip {
+     border: none;
+     border-radius: 4px;
+     background-color:alpha (#1C1B1A, 0.999);
+}
+
+#clock,
+#battery,
+#bluetooth,
+#network,
+#pulseaudio {
+    color: #FFFCF0;
+    margin-left: 10px;
+}
+
+#battery{
+    margin-right: 10px;
+}
+
+#battery.charging {
+    color: #24837B;
+}
+
+#bluetooth.off {
+    color: #282726;
+}
+
+#battery.critical:not(.charging) {
+    color: #AF3029;
+}
+
+#network.disabled{
+    color: #282726;
+}
+
+#network.disconnected {
+    color: #AF3029;
+}
+
+#pulseaudio.muted {
+    color: #282726;
+}
