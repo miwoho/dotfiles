@@ -3,7 +3,7 @@
 install_pacman() {
     sudo pacman -S linux-firmware-qlogic mesa vulkan-radeon udiskie udisks2 7zip \
     python-pip go clang cmake eslint pyright rust-analyzer rustup jre-openjdk \
-    gtk3 gtk4 qt5-wayland qt6-wayland xdg-desktop-portal xdg-desktop-portal-wlr xdg-desktop-portal-gtk brightnessctl \
+    gtk3 gtk4 qt5-wayland qt6-wayland xdg-desktop-portal xdg-desktop-portal-wlr xdg-desktop-portal-gtk brightnessctl openssh\
     polkit polkit-gnome ttf-dejavu ttf-nerd-fonts-symbols noto-fonts-cjk zip unzip unrar\
     bluez bluez-utils pipewire-alsa pipewire-audio pipewire-jack pipewire-pulse \
     wayland hyprland ly wl-clipboard waybar wofi mako hyprshot bluetui zsh ghostty zed \
