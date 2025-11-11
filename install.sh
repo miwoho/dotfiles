@@ -6,7 +6,7 @@ install_pacman() {
     gtk3 gtk4 qt5-wayland qt6-wayland xdg-desktop-portal xdg-desktop-portal-wlr xdg-desktop-portal-gtk brightnessctl \
     polkit polkit-gnome ttf-dejavu ttf-nerd-fonts-symbols noto-fonts-cjk zip unzip unrar\
     bluez bluez-utils pipewire-alsa pipewire-audio pipewire-jack pipewire-pulse \
-    wayland hyprland ly wl-clipboard waybar wofi mako bluetui zsh ghostty zed \
+    wayland hyprland ly wl-clipboard waybar wofi mako hyprshot bluetui zsh ghostty zed \
     firefox telegram-desktop kicad obs-studio gimp inkscape libreoffice-fresh showtime loupe kdenlive audacity qbittorrent android-tools obsidian
 
 }
