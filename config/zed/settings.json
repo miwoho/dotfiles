@@ -1,0 +1,98 @@
+{
+  "zoomed_padding": false,
+  "use_system_window_tabs": false,
+  "preview_tabs": {
+    "enable_preview_from_file_finder": false,
+    "enabled": false
+  },
+  "toolbar": {
+    "quick_actions": true,
+    "breadcrumbs": true
+  },
+  "inline_code_actions": false,
+  "relative_line_numbers": false,
+  "gutter": {
+    "folds": true,
+    "breakpoints": true,
+    "runnables": false,
+    "line_numbers": true
+  },
+  "use_system_prompts": false,
+  "auto_update": false,
+  "ui_font_family": ".ZedSans",
+  "ensure_final_newline_on_save": false,
+  "remove_trailing_whitespace_on_save": false,
+  "format_on_save": "off",
+  "tasks": {
+    "enabled": false
+  },
+  "autosave": "on_focus_change",
+  "bottom_dock_layout": "contained",
+  "tabs": {
+    "file_icons": false
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": false,
+    "show": true
+  },
+  "title_bar": {
+    "show_branch_name": true,
+    "show_user_picture": false,
+    "show_project_items": false,
+    "show_onboarding_banner": false,
+    "show_sign_in": false
+  },
+  "debugger": {
+    "button": false
+  },
+  "search": {
+    "button": false
+  },
+  "diagnostics": {
+    "button": false
+  },
+  "terminal": {
+    "button": false
+  },
+  "status_bar": {
+    "cursor_position_button": false,
+    "active_language_button": true
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "notification_panel": {
+    "button": true
+  },
+  "outline_panel": {
+    "button": true
+  },
+  "project_panel": {
+    "button": true,
+    "indent_guides": {
+      "show": "never"
+    },
+    "show_diagnostics": "errors",
+    "dock": "left"
+  },
+  "audio": {
+    "experimental.legacy_audio_compatible": false,
+    "experimental.denoise": false,
+    "experimental.auto_speaker_volume": false
+  },
+  "agent": {
+    "button": false,
+    "enable_feedback": false,
+    "single_file_review": false,
+    "model_parameters": []
+  },
+  "disable_ai": true,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "icon_theme": "Zed (Default)",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": "Flexoki Dark"
+}
