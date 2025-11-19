@@ -38,6 +38,7 @@ gtk_setting() {
 }
 
 install_pacman
+install_aur
 enable_service
 copy_config
 gtk_setting
