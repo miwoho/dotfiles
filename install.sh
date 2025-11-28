@@ -29,7 +29,7 @@ enable_service() {
 copy_config(){
     cp -r config/. ~/.config
     sudo cp -r flexoki /usr/share/themes/flexoki
-    mkdir -p ~/pictures/screenshots
+    mkdir -p ~/pictures
 }
 
 gtk_setting() {
