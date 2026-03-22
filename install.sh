@@ -22,7 +22,7 @@ enable_service() {
     systemctl --user enable pipewire-pulse.service
     systemctl --user enable wireplumber.service
 
-    sudo systemctl enable ly.service
+    sudo systemctl enable ly@tty2.service
     sudo systemctl enable bluetooth.service
 }
 
